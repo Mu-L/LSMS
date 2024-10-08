@@ -54,7 +54,8 @@ except:
                          "/usr/local/lib/systemd/network",
                          "/lib/systemd/system",
                          "/lib/systemd/user",
-                         "/lib/systemd/network"]
+                         "/lib/systemd/network",
+                         "/run/systemd/system"]
 
 
 def _get_system_unit_files() -> Dict[str, str]:
